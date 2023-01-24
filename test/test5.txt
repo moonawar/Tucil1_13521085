@@ -1,0 +1,5 @@
+Kartu : A 2 A 3
+
+Solusi ditemukan : 0
+
+Execution time : 0 ms
