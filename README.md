@@ -3,15 +3,15 @@
 
 ## Table of Contents
 - [Requirements](##Requirements)
-- [Cara compile program](##Cara Compile Program (Windows Only))
-- [Cara menggunakan program](##Cara Menjalankan Program)
+- [Cara compile program](##Cara-Compile-Program)
+- [Cara menggunakan program](##Cara-Menjalankan-rogram)
 - [Author](##Author)
 
 ## Requirements
 Any C++ compiler.
 
-## Cara Compile Program (Windows Only)
-Cara 1 : Jalankan compile.bat <br>
+## Cara Compile Program 
+Cara 1 : Jalankan compile.bat (Windows Only) <br>
 Cara 2 :
   1. Buka terminal
   2. Jalankan ```g++ src/main.cpp src/cards.cpp src/vectoralgo.cpp -o bin/24solver``` di terminal(sesuaikan dengan compiler masing-masing)
