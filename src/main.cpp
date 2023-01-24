@@ -64,8 +64,13 @@ vector<int> handleInputCards(){
         cout << endl << "Masukkan 4 kartu yang ingin dihitung dengan spasi sebagai pemisah: " << endl << "Contoh: A 3 4 Q" << endl << endl;
         cin >> a >> b >> c >> d; // Input kartu
         while (!isValid(a) || !isValid(b) || !isValid(c) || !isValid(d)){
-            cout << "Input tidak valid! Silahkan ulangi!" << endl;
-            cin >> a >> b >> c >> d; // Input kartu
+            cout << "Input tidak valid! Silahkan ulangi!" << endl << flush;
+            char e, f, g, h;
+            cin >> e >> f >> g >> h; // Input kartu
+            a = e;
+            b = f;
+            c = g;
+            d = h;
         }
         vector<int> cards = {charToInt(a), charToInt(b), charToInt(c), charToInt(d)};
         return cards;

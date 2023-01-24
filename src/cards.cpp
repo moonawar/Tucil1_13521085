@@ -15,11 +15,11 @@ int charToInt(char c) {
     if (c == 'A') {
         return 1;
     } else if (c == 'J') {
-        return 11;
+        return 10;
     } else if (c == 'Q') {
-        return 12;
+        return 11;
     } else if (c == 'K') {
-        return 13;
+        return 12;
     } else {
         return c - '0';
     }
@@ -29,11 +29,11 @@ char intToChar(int i) {
 //Mengubah sebuah bilangan kartu menjadi karakter
     if (i == 1) {
         return 'A';
-    } else if (i == 11) {
+    } else if (i == 10) {
         return 'J';
-    } else if (i == 12) {
+    } else if (i == 11) {
         return 'Q';
-    } else if (i == 13) {
+    } else if (i == 12) {
         return 'K';
     } else {
         return i + '0';
