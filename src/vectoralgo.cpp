@@ -5,7 +5,6 @@
 */
 
 #include "./vectoralgo.h"
-#include <iostream>
 
 bool isMember(vector<string> v, string s) {
 /*Mengecek apakah sebuah string t (yang berupa ekspresi) adalah anggota dari vector v*/
