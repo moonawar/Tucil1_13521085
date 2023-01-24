@@ -79,4 +79,4 @@ Solusi ditemukan : 77
 (4 / (4 / 12)) + 12
 4 / (4 / (12 + 12))
 
-Execution time : 23 ms
+Execution time : 19 ms
